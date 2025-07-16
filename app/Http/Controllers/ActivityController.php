@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 
 class ActivityController extends Controller
 {
+
+    //TESTING
     // Ambil semua aktivitas berdasarkan hari milik user login
     public function index(Request $request)
     {
